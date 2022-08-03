@@ -1,0 +1,45 @@
+
+Body{
+    text-align: center;
+}
+
+/* Heading */
+.Home-Text-small{
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+.big-heading{
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* navbar */
+.navbar{
+    margin-bottom: 15%;
+}
+.nav-link:hover{
+    color: #fff;
+}
+.Home{
+    text-align: left;
+}
+.Home-text{
+    text-align: center;
+}
+/* Home image */
+.home-img{
+    border-radius: 15px 50px;
+    width: 50%;
+    right: 20%;
+}
+.container-fluid{
+    padding: 2% 15%;
+}
+#Home{
+    background-color: #2C3333;
+    color: #E7F6F2;
+}
+.download-button
+{
+    margin: 5% 3% 5% 0;
+}
