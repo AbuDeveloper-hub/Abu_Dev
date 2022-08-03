@@ -28,6 +28,9 @@ Body{
 #Home{
     background-color: #2C3333;
     color: #E7F6F2;
+    
+}
+.Home{
     text-align: left;
 }
 .Home-text{
@@ -55,15 +58,12 @@ Body{
     .Home{
         text-align: center;
     }
-    .home-img{
-        text-align: center;
-    }
     .Home-Text-small{
         font-size: .8rem;
         line-height: 1.5;
     }
     .big-heading{
-        font-size: 1.5rem;
+        font-size: 2.0rem;
         line-height: 1.5;
     }
 }
