@@ -5,14 +5,17 @@ Body{
 
 /* Heading */
 .Home-Text-small{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     line-height: 1.5;
 }
 .big-heading{
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     line-height: 1.5;
 }
 
+.big-heading span{
+    color: #A5C9CA;
+}
 /* navbar */
 .navbar{
     margin-bottom: 15%;
@@ -20,26 +23,47 @@ Body{
 .nav-link:hover{
     color: #fff;
 }
-.Home{
+
+/* Home */
+#Home{
+    background-color: #2C3333;
+    color: #E7F6F2;
     text-align: left;
 }
 .Home-text{
     text-align: center;
 }
+
 /* Home image */
 .home-img{
     border-radius: 15px 50px;
     width: 50%;
-    right: 20%;
 }
 .container-fluid{
     padding: 2% 15%;
 }
-#Home{
-    background-color: #2C3333;
-    color: #E7F6F2;
-}
+
 .download-button
 {
-    margin: 5% 3% 5% 0;
+    margin: 3% 3% 5% 0;
+}
+
+
+/* Media queries */
+
+@media (max-width:824px) {
+    .Home{
+        text-align: center;
+    }
+    .home-img{
+        text-align: center;
+    }
+    .Home-Text-small{
+        font-size: .8rem;
+        line-height: 1.5;
+    }
+    .big-heading{
+        font-size: 1.5rem;
+        line-height: 1.5;
+    }
 }
