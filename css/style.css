@@ -22,6 +22,7 @@ Body{
 .navbar{
     margin-bottom: 15%;
     font-family: 'PT Sans', sans-serif;
+    font-size: 1.2rem;
 }
 .nav-link:hover{
     color: #fff;
