@@ -34,9 +34,7 @@ Body{
     color: #E7F6F2;
     
 }
-.Home{
-    text-align: left;
-}
+
 .Home-text{
     text-align: center;
 }
@@ -45,6 +43,7 @@ Body{
 .home-img{
     border-radius: 15px 50px;
     width: 50%;
+    text-align: left;
 }
 .container-fluid{
     padding: 2% 15%;
@@ -59,9 +58,7 @@ Body{
 /* Media queries */
 
 @media (max-width:824px) {
-    .Home{
-        text-align: center;
-    }
+
     .Home-Text-small{
         font-size: .8rem;
         line-height: 1.5;
