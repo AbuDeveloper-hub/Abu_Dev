@@ -18,6 +18,15 @@ Body{
 .big-heading span{
     color: #A5C9CA;
 }
+
+.section-heading{
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-family: 'PT Sans', sans-serif;
+    text-align: left;
+    font-weight: 900;
+}
 /* navbar */
 .navbar{
     margin-bottom: 15%;
@@ -54,6 +63,37 @@ Body{
     margin: 3% 3% 5% 0;
 }
 
+/* AboutMe Page */
+#About{
+    height: 100vh;
+    background-color: #E7F6F2;
+}
+
+/* Skills page */
+#skills{
+    height: 100vh;
+    background-color: #395B64;
+}
+
+/* Project Page */
+#projects{
+    height: 100vh;
+    background-color: #E7F6F2;
+}
+
+/* Contact Page*/
+#contact{
+    height: 100vh;
+    background-color: #395B64;
+}
+
+/* Footer */
+#footer{
+    text-align: center;
+}
+#footer .container-fluid{
+    padding: 1% 15%;
+}
 
 /* Media queries */
 
