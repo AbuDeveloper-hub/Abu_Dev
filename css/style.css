@@ -30,6 +30,13 @@ Body{
     text-align: left;
     font-weight: 900;
 }
+.skills-heading{
+    font-size: 1.6rem;
+    text-align: center;
+    color: aliceblue;
+    font-family: 'PT Sans', sans-serif;
+    border-bottom: 2px solid black;
+}
 /* navbar */
 .navbar{
     margin-bottom: 15%;
@@ -67,14 +74,27 @@ Body{
 
 /* AboutMe Page */
 #About{
-
     background-color: #E7F6F2;
+    text-align: left;
 }
 
+.About-img .home-img{
+    width: 50%;
+}
+
+.About-BioData{
+    padding: 2%;
+    background-color: #395B64;
+    border-radius: 15px 50px;
+    color: #E7F6F2;
+}
 /* Skills page */
 #skills{
     text-align: left;
     background-color: #395B64;
+}
+.timeline{
+    color: #A5C9CA;
 }
 .progress{
     margin: 1% 0;
@@ -110,6 +130,7 @@ Body{
 
 @media (max-width:824px) {
 
+
     .Home-Text-small{
         font-size: .8rem;
         line-height: 1.5;
@@ -117,5 +138,14 @@ Body{
     .big-heading{
         font-size: 2.0rem;
         line-height: 1.5;
+    }
+
+    #About{
+        text-align: center;
+    }
+    .About-BioData{
+        text-align: justify;
+        margin: 0% 5%;
+        
     }
 }
