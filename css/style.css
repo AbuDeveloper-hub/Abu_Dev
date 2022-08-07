@@ -1,7 +1,10 @@
-
+*{
+    list-style-type: none;
+}
 Body{
     text-align: center;
     font-family: 'PT Sans', sans-serif;
+    
 }
 
 /* Heading */
@@ -41,7 +44,6 @@ Body{
 #Home{
     background-color: #2C3333;
     color: #E7F6F2;
-    
 }
 
 .Home-text{
@@ -65,16 +67,25 @@ Body{
 
 /* AboutMe Page */
 #About{
-    height: 100vh;
+
     background-color: #E7F6F2;
 }
 
 /* Skills page */
 #skills{
-    height: 100vh;
+    text-align: left;
     background-color: #395B64;
 }
-
+.progress{
+    margin: 1% 0;
+}
+.progress-caption{
+    color: #fff;
+    text-align: left;
+    font-size: 1rem;
+}
+    /* time-line */
+    
 /* Project Page */
 #projects{
     height: 100vh;
