@@ -109,28 +109,47 @@ Body{
     text-align: left;
     font-size: 1rem;
 }
-    /* time-line */
     
 /* Project Page */
-#projects{
 
+#projects{
+    text-align: center;
     background-color: #E7F6F2;
 }
-
+#projects h4{
+    text-align: center;
+}
+.pricing-colums{
+    padding: 3% 2%;
+}
 /* Contact Page*/
 #contact{
-    height: 100vh;
-    background-color: #395B64;
+    background-color: #2C3333;
+
 }
 
+.contact-icon{
+    margin: 20px 10px;
+}
+
+.contact-card{
+    border: 2px solid black;
+    border-radius: 10px;
+    color: #fff;
+    margin: 10px 20px;
+}
+.form-text{
+    text-align: left;
+    color: #fff;
+}
 /* Footer */
-#footer{
+#footer .container-fluid{
     text-align: center;
 }
 #footer .container-fluid{
     padding: 1% 15%;
+    font-size: .5rem;
 }
-
 /* Media queries */
 
 @media (max-width:824px) {
@@ -153,4 +172,9 @@ Body{
         margin: 0% 5%;
         
     }
+}
+
+@media (max-width:550px) {
+
+
 }
