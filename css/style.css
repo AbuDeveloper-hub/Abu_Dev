@@ -31,11 +31,16 @@ Body{
     font-weight: 900;
 }
 .skills-heading{
-    font-size: 1.6rem;
-    text-align: center;
-    color: aliceblue;
-    font-family: 'PT Sans', sans-serif;
+    color: #fff;
+    font-size: 1.5rem;
+}
+.skills-heading::after{
+    content: '';
+    display: block;
     border-bottom: 2px solid black;
+    width: auto;
+    max-width: 20%;
+    margin-top: 2%;
 }
 /* navbar */
 .navbar{
@@ -108,7 +113,7 @@ Body{
     
 /* Project Page */
 #projects{
-    height: 100vh;
+
     background-color: #E7F6F2;
 }
 
