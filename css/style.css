@@ -7,6 +7,9 @@ Body{
     
 }
 
+i a{
+    font-family: 'PT Sans', sans-serif;
+}
 /* Heading */
 .Home-Text-small{
     font-size: 1.2rem;
@@ -33,15 +36,12 @@ Body{
 .skills-heading{
     color: #fff;
     font-size: 1.5rem;
+    text-align: center;
+    padding: 2%;
+    border: 2px solid #E7F6F2;
+    margin-bottom: 5%;
 }
-.skills-heading::after{
-    content: '';
-    display: block;
-    border-bottom: 2px solid black;
-    width: auto;
-    max-width: 20%;
-    margin-top: 2%;
-}
+
 /* navbar */
 .navbar{
     margin-bottom: 15%;
