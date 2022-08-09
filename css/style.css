@@ -170,11 +170,17 @@ Body{
     .About-BioData{
         text-align: justify;
         margin: 0% 5%;
-        
     }
 }
 
-@media (max-width:550px) {
-
+@media (max-width: 575px) { 
+    .Home-Text-small{
+        font-size: .5rem;
+        line-height: 1.5;
+    }
+    .big-heading{
+        font-size: 1.0rem;
+        line-height: 1.5;
+    }
 
 }
