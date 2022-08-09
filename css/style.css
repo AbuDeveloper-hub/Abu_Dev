@@ -175,7 +175,7 @@ Body{
 
 @media (max-width: 575px) { 
     .container-fluid{
-        padding: 7% 0%;
+        padding: 7% 2%;
     }
     .Home-Text-small{
         font-size: .5rem;
