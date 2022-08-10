@@ -10,6 +10,30 @@ Body{
 i a{
     font-family: 'PT Sans', sans-serif;
 }
+
+.nav-icon{
+    transition: .5s all;
+}
+
+.social-icon{
+    margin: 20px 10px;
+}
+
+.fa-twitter{
+    color: #00ACEE;
+}
+.fa-facebook{
+    color: #3B5998;
+}
+.fa-whatsapp{
+    color: #25d366;
+}
+.fa-instagram{
+    color:#833AB4;
+}
+.nav-icon:hover{
+    transform:scale(1.1);
+}
 /* Heading */
 .Home-Text-small{
     font-size: 1.2rem;
@@ -90,8 +114,10 @@ i a{
 .About-BioData{
     padding: 2%;
     background-color: #395B64;
-    border-radius: 15px 50px;
+    border-radius: 15px;
     color: #E7F6F2;
+    font-size: 1rem;
+    
 }
 /* Skills page */
 #skills{
@@ -113,19 +139,22 @@ i a{
 /* Project Page */
 
 #projects{
-    text-align: center;
     background-color: #E7F6F2;
-}
-#projects h4{
     text-align: center;
+    cursor: pointer;
 }
-.pricing-colums{
+.pricing-column{
     padding: 3% 2%;
+    transition: .5s all;
+}
+.pricing-column:hover{
+
+    transform:scale(1.1);
 }
 /* Contact Page*/
 #contact{
     background-color: #2C3333;
-
+    text-align: center;
 }
 
 .contact-icon{
@@ -137,6 +166,14 @@ i a{
     border-radius: 10px;
     color: #fff;
     margin: 10px 20px;
+    cursor: pointer;
+    transition: .5s all;
+}
+
+.contact-card:hover{
+    background-color: #A5C9CA;
+    color: #2C3333;
+    transform:scale(1.1);
 }
 .form-text{
     text-align: left;
@@ -168,8 +205,8 @@ i a{
         text-align: center;
     }
     .About-BioData{
-        text-align: justify;
-        margin: 0% 5%;
+        text-align: left;
+
     }
 }
 
@@ -184,6 +221,9 @@ i a{
     .big-heading{
         font-size: 1.0rem;
         line-height: 1.5;
+    }
+    .About-BioData{
+        font-size: .8rem;
     }
 
 }
