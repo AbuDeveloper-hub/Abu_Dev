@@ -67,10 +67,16 @@ i a{
 }
 
 /* navbar */
+.navbar .container-fluid{
+    padding: .5% 15%;
+}
 .navbar{
-    margin-bottom: 15%;
     font-family: 'PT Sans', sans-serif;
     font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    background-color: #2C3333;
+    z-index: 1;
 }
 .nav-link:hover{
     color: #fff;
@@ -80,6 +86,8 @@ i a{
 #Home{
     background-color: #2C3333;
     color: #E7F6F2;
+    padding-top: 10%;
+
 }
 
 .Home-text{
