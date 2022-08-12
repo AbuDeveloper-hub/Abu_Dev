@@ -1,9 +1,8 @@
 *{
     list-style-type: none;
-
-}
+}   
 Body{
-    text-align: center;
+
     font-family: 'PT Sans', sans-serif;
 }
 
@@ -25,15 +24,18 @@ Body{
 .colored-backgroud{
     background-color: #2C3333;
     color: #E7F6F2;
+    padding: 5%;
 }
 .white-backgroud{
     background-color: #E7F6F2;
+    padding: 5%;
 }
 /* Heading */
 .big-heading{
     font-size: 2rem;
     line-height: 1.5;
     font-family: 'PT Serif', serif;
+    font-weight: 900;
 }
 .section-heading{
     font-size: 1rem;
@@ -134,7 +136,6 @@ Body{
 }
 /* Home */
 #Home{
-
     padding: 5%;
 }
 .Home-text{
@@ -143,7 +144,7 @@ Body{
 }
 .Home-text .element{
     font-weight: 900;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #A5C9CA;
 }
 
@@ -178,25 +179,21 @@ Body{
     text-align: left;
 }
 /* AboutMe Page */
-.About-img .home-img{
-    width: 50%;
-}
-
 .About-BioData{
     padding: 2%;
     background-color: #395B64;
     border-radius: 15px;
     color: #E7F6F2;
     font-size: 1rem;
-    text-align: left;
 }
 .About-BioData li{
     padding: 5px;
     margin-left: 20%;
+    text-align: left;
 }
 
 .About-img{
-        width: 50%;
+        width: 40%;
         border-radius: 10%;
 }
 .download-button
@@ -204,6 +201,9 @@ Body{
     margin: 3% 3% 5% 0;
 }
 /* Skills page */
+#skills{
+    text-align: left;
+}
 .timeline{
     color: #A5C9CA;
 }
@@ -227,7 +227,6 @@ Body{
     transition: .5s all;
 }
 .pricing-column:hover{
-
     transform:scale(1.1);
 }
 /* Contact Page*/
@@ -259,6 +258,9 @@ Body{
     color: #fff;
 }
 /* Footer */
+#footer{
+    text-align: center;
+}
 #footer .container-fluid{
     padding: 1% 15%;
     font-size: .5rem;
