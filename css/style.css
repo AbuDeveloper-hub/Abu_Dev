@@ -5,8 +5,9 @@
 Body{
     text-align: center;
     font-family: 'PT Sans', sans-serif;
-    
 }
+
+/* preloader */
 
 #pre-loader{
     height: 100vh;
@@ -17,33 +18,16 @@ Body{
     z-index: 100;
 }
 
-i a{
-    font-family: 'PT Sans', sans-serif;
+.container-fluid{
+    padding: 3% 7%;
 }
 
-.nav-icon{
-    transition: .5s all;
-    color: #fff;
+.colored-backgroud{
+    background-color: #2C3333;
+    color: #E7F6F2;
 }
-
-.social-icon{
-    margin: 20px 10px;
-}
-
-.fa-twitter{
-    color: #00ACEE;
-}
-.fa-facebook{
-    color: #3B5998;
-}
-.fa-whatsapp{
-    color: #25d366;
-}
-.fa-instagram{
-    color:#833AB4;
-}
-.nav-icon:hover{
-    transform:scale(1.1);
+.white-backgroud{
+    background-color: #E7F6F2;
 }
 /* Heading */
 .big-heading{
@@ -51,18 +35,14 @@ i a{
     line-height: 1.5;
     font-family: 'PT Serif', serif;
 }
-
-.big-heading span{
-    color: #A5C9CA;
-}
-
 .section-heading{
     font-size: 1rem;
     line-height: 1.5;
     letter-spacing: 1px;
     font-family: 'PT Sans', sans-serif;
-    text-align: left;
+    text-align: center;
     font-weight: 900;
+    color: black;
 }
 .skills-heading{
     color: #fff;
@@ -74,6 +54,7 @@ i a{
 }
 
 /* navbar */
+
 .navbar .container-fluid{
     padding: .5% 15%;
 }
@@ -88,15 +69,21 @@ i a{
 .nav-link:hover{
     color: #fff;
     transform: scale(1.1);
+    transition: .5s all;
 }
 
-.element{
-    font-weight: 900;
-    font-size: 2rem;
-    color: #A5C9CA;
+.nav-icon a{
+    font-family: 'PT Sans', sans-serif;
 }
 
-/* navbar */
+.nav-icon{
+    transition: .5s all;
+    color: #fff;
+}
+
+.nav-icon:hover{
+    transform:scale(1.1);
+}
 .navbar-toggler{
     border: 0;
 }
@@ -132,56 +119,65 @@ i a{
     transform: rotate(-45deg);
     transform-origin: 10% 10%;
 }
-
-
 .navbar-toggler.collapsed .topbar{
     transform: rotate(0);
 }
-
 .navbar-toggler.collapsed .middle{
     opacity: 1;
     filter: alpha(opacity=100);
 }
-
 .navbar-toggler.collapsed .bottom{
     transform: rotate(0);
 }
-
 .navbar-toggler.collapsed .toggler-icon{
     background-color: #77777777;
 }
 /* Home */
 #Home{
-    background-color: #2C3333;
-    color: #E7F6F2;
+
     padding: 5%;
 }
-
 .Home-text{
     text-align: center;
     padding-top: 5%;
 }
+.Home-text .element{
+    font-weight: 900;
+    font-size: 2rem;
+    color: #A5C9CA;
+}
+
+.social-icon{
+    margin: 20px 10px;
+    cursor: pointer;
+
+    border-radius: 50%;
+    padding: 1.5%;
+}
+.social-icon:hover{
+    transition: .5s all;
+    transform: scale(1.1);
+}
+.fa-twitter{
+    color: #00ACEE;
+}
+.fa-facebook{
+    color: #3B5998;
+}
+.fa-whatsapp{
+    color: #25d366;
+}
+.fa-instagram{
+    color:#833AB4;
+}
 
 /* Home image */
 .home-img{
-    border-radius: 15px 50px;
-    width: 60%;
+    border-radius: 10%;
+    width: 50%;
     text-align: left;
 }
-.container-fluid{
-    padding: 3% 7%;
-}
-
-.download-button
-{
-    margin: 3% 3% 5% 0;
-}
-
 /* AboutMe Page */
-#About{
-    background-color: #E7F6F2;
-}
-
 .About-img .home-img{
     width: 50%;
 }
@@ -198,10 +194,16 @@ i a{
     padding: 5px;
     margin-left: 20%;
 }
-/* Skills page */
-#skills{
-    background-color: #395B64;
+
+.About-img{
+        width: 50%;
+        border-radius: 10%;
 }
+.download-button
+{
+    margin: 3% 3% 5% 0;
+}
+/* Skills page */
 .timeline{
     color: #A5C9CA;
 }
@@ -217,7 +219,6 @@ i a{
 /* Project Page */
 
 #projects{
-    background-color: #E7F6F2;
     text-align: center;
     cursor: pointer;
 }
@@ -231,7 +232,6 @@ i a{
 }
 /* Contact Page*/
 #contact{
-    background-color: #2C3333;
     text-align: center;
 }
 
@@ -252,6 +252,7 @@ i a{
     background-color: #A5C9CA;
     color: #2C3333;
     transform:scale(1.1);
+
 }
 .form-text{
     text-align: left;
@@ -259,40 +260,25 @@ i a{
 }
 /* Footer */
 #footer .container-fluid{
-    text-align: center;
-}
-#footer .container-fluid{
     padding: 1% 15%;
     font-size: .5rem;
 }
 /* Media queries */
 
 @media (max-width:824px) {
-
-
-    .Home-Text-small{
-        font-size: .8rem;
-        line-height: 1.5;
-    }
     .big-heading{
         font-size: 2.0rem;
         line-height: 1.5;
     }
-
     #About{
         text-align: center;
     }
     .About-BioData{
         text-align: left;
-
     }
 }
 
 @media (max-width: 575px) { 
-
-    .Home-text{
-        margin-top: 0;
-    }
     .big-heading{
         font-size: 1.5rem;
         line-height: 1.5;
