@@ -24,7 +24,7 @@ Body{
 }
 
 .container-fluid{
-    padding: 7% 15%;
+    padding: 3% 7%;
 }
 
 .colored-backgroud{
@@ -289,6 +289,9 @@ Body{
 }
 
 @media (max-width: 575px) { 
+    .container-fluid{
+        padding: 7%;
+    }
     .big-heading{
         font-size: 1.5rem;
         line-height: 1.5;
