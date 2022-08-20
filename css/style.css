@@ -5,9 +5,7 @@ Body{
     text-align: center;
     font-family: 'PT Sans', sans-serif;
 }
-
 /* preloader */
-
 #About,#contact{
    
     background-position: center;
@@ -101,6 +99,7 @@ Body{
     outline: none;
     box-shadow: none;
     border: 0;
+    
 }
 
 .toggler-icon{
@@ -142,7 +141,7 @@ Body{
 }
 /* Home */
 #Home{
-    padding: 5%;
+    padding: 5% 0% ;
 }
 .Home-text{
     text-align: center;
